@@ -25,8 +25,8 @@ export default function Nav() {
             <Link href="/map" className="text-slate-600 hover:text-blue-600 transition">
               Map 
             </Link>
-            <Link href="/services" className="text-slate-600 hover:text-blue-600 transition">
-              Services
+            <Link href="/about" className="text-slate-600 hover:text-blue-600 transition">
+              About
             </Link>
             <Link href="/contact" className="text-slate-600 hover:text-blue-600 transition">
               Contact
