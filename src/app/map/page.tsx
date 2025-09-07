@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { MapPin, Search, Shield, Eye, Users, Filter, Star, MessageSquare } from 'lucide-react';
 
+
 // Type definitions
 interface Route {
   id: number;
@@ -122,6 +123,7 @@ export default function MapPage() {
             {/* Search Bar */}
             <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-[#D2E0FB]">
               <div className="relative">
+                
                 <input
                   type="text"
                   placeholder="Search location or route..."
